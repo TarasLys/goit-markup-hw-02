@@ -1,9 +1,31 @@
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --between-letters: 0.02em;
+    --titleh2-size: 36px;
+    --titleh3-size: 20px;
+    --textp-size: 16px;
+    --height-line: 24px;
+    --heighth2-line: 40px;
+}
+
 body {
+    font-family: var(--primary-font);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Tangerine', cursive;
-    font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    
+    color: var(--title-color);
+    color: var(--text-color);
+    letter-spacing: var(--between-letters);
+    font-size: var(--titleh2-size);
+    font-size: var(--titleh3-size);
+    font-size: var(--textp-size);
+    line-height: var(--height-line);
+    line-height: var(--heighth2-line);
+
 }
 
 .logo {
@@ -23,6 +45,7 @@ body {
 }
 
 .nav-link {
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -37,6 +60,7 @@ body {
 }
 
 .contacts-link {
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -55,6 +79,7 @@ body {
 }
 
 .footer-text {
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -64,6 +89,7 @@ body {
 }
 
 .main-title {
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -94,4 +120,37 @@ body {
 
 .main-button:hover {
     background: #404BBF;
+}
+
+.title-name {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--titleh3-size);
+    line-height: var(--height-line);
+    text-align: center;
+    letter-spacing: var(--between-letters);
+    color: var(--title-color);
+}
+ 
+.text-description {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--textp-size);
+    line-height: var(--height-line);
+    letter-spacing: var(--between-letters);
+    color: var(--text-color);
+}
+
+.title-subject {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--titleh2-size);
+    line-height: var(--heighth2-line);
+    text-align: center;
+    letter-spacing: var(--between-letters);
+    text-transform: capitalize;
+    color: var(--title-color);
 }
