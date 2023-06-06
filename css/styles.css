@@ -22,7 +22,7 @@ body {
     color: #4D5AE5;
 }
 
-.nav-list {
+.nav-link {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -30,7 +30,13 @@ body {
     letter-spacing: 0.02em;
 }
 
-.contacts-item {
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #404BBF;
+}
+
+.contacts-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -38,6 +44,11 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.contacts-link:focus,
+.contacts-link:hover {
+    color: #404BBF;
+}
+
 
 .footer {
         background: #2E2F42;
@@ -50,4 +61,37 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.section-main {
+    
+    background: #2E2F42;
+}
+
+.main-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.main-button:hover {
+    background: #404BBF;
 }
