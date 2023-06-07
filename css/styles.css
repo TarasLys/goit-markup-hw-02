@@ -7,16 +7,18 @@
     --titleh2-size: 36px;
     --titleh3-size: 20px;
     --textp-size: 16px;
-    --height-line: 24px;
-    --heighth2-line: 40px;
+    --height-line: 1.5;
+    --heighth1-line: 1.07;
+    --heighth2-line: 1.11;
+    --heighth3-line: 1.2;
+    
 }
 
 body {
     font-family: var(--primary-font);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-family: 'Tangerine', cursive;
-    
+    font-family: 'Tangerine', cursive;  
     color: var(--title-color);
     color: var(--text-color);
     letter-spacing: var(--between-letters);
@@ -24,8 +26,9 @@ body {
     font-size: var(--titleh3-size);
     font-size: var(--textp-size);
     line-height: var(--height-line);
+    line-height: var(--heighth1-line);
     line-height: var(--heighth2-line);
-
+    line-height: var(--heighth3-line);
 }
 
 .logo {
@@ -94,7 +97,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: var(--heighth1-line);
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -129,10 +132,10 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: var(--titleh3-size);
-    line-height: var(--height-line);
     text-align: center;
     letter-spacing: var(--between-letters);
     color: var(--title-color);
+    line-height: var(--heighth3-line);
 }
  
 .text-description {
