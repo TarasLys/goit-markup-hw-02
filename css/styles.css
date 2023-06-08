@@ -33,6 +33,10 @@ body {
     line-height: var(--heighth3-line);
 }
 
+.body-rules {
+    font-family: "Roboto", sans-serif;
+}
+
 
 
 
@@ -75,6 +79,7 @@ body {
 }
 
 .main-button {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -88,6 +93,12 @@ body {
 .main-button:hover {
     background: #404BBF;
 }
+
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+
 
 .title-name {
     font-family: var(--primary-font);
